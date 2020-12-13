@@ -1,7 +1,7 @@
 package school.subject;
 
 import school.student.Student;
-import school.student.Trimester;
+import school.Trimester;
 
 import java.util.Arrays;
 

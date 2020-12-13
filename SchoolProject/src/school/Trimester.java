@@ -1,4 +1,4 @@
-package school.student;
+package school;
 
 public interface Trimester {
 
