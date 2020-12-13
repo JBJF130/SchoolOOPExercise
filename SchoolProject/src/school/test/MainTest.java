@@ -13,9 +13,9 @@ public class MainTest {
         School school = new School();
         school.addRandomSubjects();
         printTotalStudentInSchool(school);
-        printAvgWithOnlyValidGradesInSchool(school);
+        printAvgGradesInSchool(school);
     }
-    
+
     public static void printTotalStudentInSchool(School school) {
 
         int totalStudents = 0;
@@ -27,7 +27,7 @@ public class MainTest {
         System.out.println("Total Students: " + totalStudents);
     }
 
-    public static void printAvgWithOnlyValidGradesInSchool(School school) {
+    public static void printAvgGradesInSchool(School school) {
 
         double avgStudentGrade = 0;
         double avgSubject = 0;
